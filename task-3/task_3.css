@@ -1,0 +1,39 @@
+.input {
+    border: solid;
+    outline: none;
+    border-color: rgb(135, 206, 250);
+    margin: 5px 5px;
+    padding: 10px 2px;
+    width: 250px;
+}
+
+.btn {
+    outline: none;
+    background: rgb(135, 206, 250);
+    border-color: rgb(135, 206, 250);
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.chat-container {
+    display: flex;
+    justify-content: right;
+    width: 474px;
+    height: 474px;
+    margin: 5px;
+    overflow: auto;
+    border: solid;
+    border-color: rgb(135, 206, 250);
+}
+
+.chat-message {
+    width: 237px;
+    height: fit-content;
+    border-radius: 10px;
+    text-align: center;
+    padding: 7px 10px;
+    margin-right: 5px;
+    border: solid;
+    border-color: rgb(135, 206, 250);
+}
